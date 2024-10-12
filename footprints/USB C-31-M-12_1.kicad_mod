@@ -1,11 +1,11 @@
-(footprint "USB C-31-M-12" (version 20221018) (generator pcbnew)
+(footprint "USB C-31-M-12_1" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 9) (layer "F.SilkS") hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     (tstamp de09df72-7b11-452d-8f40-5c36c4729f07)
   )
-  (fp_text value "USB C-31-M-12" (at 0 6.8 180) (layer "F.Fab")
+  (fp_text value "USB C-31-M-12_1" (at 0 6.8 180) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b05df0a7-fd46-449b-963b-a74fe074e33f)
   )
@@ -35,7 +35,7 @@
   (pad "S1" thru_hole oval (at -4.325 3.68 180) (size 0.9 1.7) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp eddc381b-1610-4f2d-97fb-dfd30df33bc3))
   (pad "S1" thru_hole oval (at 4.325 -0.5 180) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp 0ec15558-bb7f-45de-9167-a9f48d140601))
   (pad "S1" thru_hole oval (at 4.325 3.68 180) (size 0.9 1.7) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp 1a0f5d57-b955-44e6-86d2-72df1a6d4ee7))
-  (model "D:/Downloads/HRO_TYPE-C-31-M-12.step"
+  (model "/home/matthias/Downloads/HRO_TYPE-C-31-M-12.step"
     (offset (xyz -4.47 -6.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
